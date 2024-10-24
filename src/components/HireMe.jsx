@@ -6,7 +6,7 @@ const HireMe = () => {
 
         <div className="justify-center">
           {/* <button className="bg-green-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-green-700 transition">Book Me Now</button> */}
-          <a href="#" class="block md:inline px-8 py-4 font-medium bg-lime-500 text-white text-lg hover:bg-lime-600 transiton ease-in-out duration-300">
+          <a href="#" className="block md:inline px-8 py-4 font-medium bg-lime-500 text-white text-lg hover:bg-lime-600 transiton ease-in-out duration-300">
             BOOK ME NOW
           </a>
         </div>

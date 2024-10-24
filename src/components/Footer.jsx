@@ -8,9 +8,9 @@ const Footer = () => {
             <h2 className="text-4xl font-medium tracking-wider text-lime-400">KINTANFOTOS</h2>
             <p className="opacity-70 mt-4">A Passionate Photographer & Designer with three years experience using lens based on Karawang, Jawa Barat.</p>
             <div className="flex grid-cols-3 gap-5 my-5 text-3xl">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-regular fa-envelope"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-youtube"></i>
+              <i className="fa-regular fa-envelope"></i>
             </div>
           </div>
 

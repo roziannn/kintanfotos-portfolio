@@ -7,7 +7,7 @@ const Instagram = () => {
           {" "}
           <div className="flex justify-center">
             <span className="block text-center text-3xl text-gray-500 mb-10">@kintania_marsha</span>
-            <svg class="w-4 h-4  text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <svg className="w-4 h-4  text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
               <path
                 stroke="currentColor"
                 stroke-linecap="round"
