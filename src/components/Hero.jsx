@@ -3,8 +3,8 @@ const Hero = () => {
     <header className="flex flex-col lg:flex-row justify-between lg:mb-20">
       <div className="text-center lg:text-left mb-20 lg:mb-0">
         <div className="flex items-center justify-center lg:justify-start gap-2 mb-10">
-          <span className="w-20 h-0.5 bg-lime-500"></span>
-          <p className="font-bold text-lime-600 text-4xl">Kintania Marsha Diva</p>
+          <span className="w-5 h-0.5 lg:w-20 lg:h-0.5 bg-lime-500"></span>
+          <p className="font-bold text-lime-600 text-2xl lg:text-4xl">Kintania Marsha Diva</p>
         </div>
 
         <h1 className="font-bold text-gray-800 text-4xl md:text-4xl xl:text-6xl mb-10">
@@ -30,7 +30,7 @@ const Hero = () => {
         <span className="font-bold text-gray-500 text-sm">Currently open for work.</span>
       </div>
 
-      <div className="mx-auto lg:mx-0">
+      <div className="mx-auto mb-16 lg:mb-0 lg:mx-0">
         <img src="/profile.jpg" className="rounded-full ring-8 ring-gray-200 max-w-xs lg:max-w-sm" alt="Image Profile" />
       </div>
     </header>
