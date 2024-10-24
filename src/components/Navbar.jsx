@@ -2,8 +2,8 @@ import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "f
 
 const Nav = () => {
   return (
-    <Navbar fluid rounded className="mt-5 mb-16">
-      <NavbarBrand href="https://flowbite-react.com">
+    <Navbar fluid rounded className="mt-3 mb-24">
+      <NavbarBrand href="#">
         <span className="self-center whitespace-nowrap text-2xl font-bold">K I N T A N F O T O S</span>
       </NavbarBrand>
       <NavbarToggle />
