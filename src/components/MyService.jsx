@@ -2,7 +2,7 @@ const Services = () => {
   return (
     <section className="py-16">
       <div className="container max-w-screen-xl mx-auto px-4 text-center">
-        <h2 className="text-5xl font-bold mb-8 text-gray-800">What I Can Help For You</h2>
+        <h2 className="text-5xl font-bold mb-8 text-gray-800">What I Can Help You With</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center text-center">
