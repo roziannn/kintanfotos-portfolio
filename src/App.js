@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import Footer from "./components/Footer";
 import Nav from "./components/Navbar";
@@ -8,21 +9,24 @@ import HireMe from "./components/HireMe";
 import HomeFeeds from "./components/HomeFeed";
 import Instagram from "./components/Instagram";
 import Services from "./components/MyService";
+import Work from "./Pages/Work";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <section className="pt-5">
-      <div className="container max-w-screen-xl mx-auto px-4">
-        <Nav />
-        <Hero />
-        <Tagline_1 />
-        <HomeFeeds />
-        <Services />
-      </div>
-      <HireMe />
-      <Instagram />
-      <Footer />
-    </section>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+            </>
+          }
+        />
+        <Route path="/work" element={<Work />} />
+      </Routes>
+    </Router>
   );
 }
 
