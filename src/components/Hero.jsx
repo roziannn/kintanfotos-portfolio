@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
 
         <hr className="text-gray-500 mb-5" />
-        <span className="font-bold text-gray-500 text-sm">Currently open for work.</span>
+        <span className="font-bold text-gray-400 text-lg lg:text-sm">Currently open for work.</span>
       </div>
 
       <div className="mx-auto mb-16 lg:mb-0 lg:mx-0">

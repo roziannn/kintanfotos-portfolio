@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="mb-10">
             <h2 className="text-4xl font-medium tracking-wider text-lime-400">KINTANFOTOS</h2>
             <p className="opacity-70 mt-4">A Passionate Photographer & Designer with three years experience using lens based on Karawang, Jawa Barat.</p>
-            <div className="flex grid-cols-3 gap-5 my-5 text-3xl">
+            <div className="flex grid-cols-3 gap-5 my-5 text-2xl lg:text-3xl">
               <i className="fa-brands fa-instagram"></i>
               <i className="fa-brands fa-youtube"></i>
               <i className="fa-regular fa-envelope"></i>
@@ -16,7 +16,7 @@ const Footer = () => {
 
           {/* Right Section (Contact) */}
           <div className="mb-10">
-            <h3 className="text-2xl">Feel free to reach out to me on WhatsApp.</h3>
+            <h3 className="text-xl lg:text-2xl">Feel free to reach out to me on WhatsApp.</h3>
             <p className="opacity-70 mt-4">
               I'm available for photography projects in the Karawang, Bekasi, and Bandung areas. Whether you're looking to capture special moments, events, or stunning visuals, I'd love to collaborate and bring your vision to life.
             </p>
