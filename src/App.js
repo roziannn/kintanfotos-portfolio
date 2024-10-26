@@ -1,16 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Footer from "./components/Footer";
-import Nav from "./components/Navbar";
-import Hero from "./components/Hero";
-import Tagline_1 from "./components/Tagline-1";
-import HireMe from "./components/HireMe";
-import HomeFeeds from "./components/HomeFeed";
-import Instagram from "./components/Instagram";
-import Services from "./components/MyService";
 import Work from "./Pages/Work";
 import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Business from "./Pages/Business";
 
 function App() {
   return (
@@ -25,6 +19,8 @@ function App() {
           }
         />
         <Route path="/work" element={<Work />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/business" element={<Business />} />
       </Routes>
     </Router>
   );
