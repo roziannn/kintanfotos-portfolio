@@ -6,7 +6,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Business from "./Pages/Business";
 import Contact from "./Pages/Contact";
-
+import Nature from "./gallery/Nature";
+import HumanInterest from "./gallery/HumanInterest";
 function App() {
   return (
     <Router>
@@ -23,6 +24,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/business" element={<Business />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/work/nature" element={<Nature />} />
+        <Route path="/work/human-interest" element={<HumanInterest />} />
       </Routes>
     </Router>
   );

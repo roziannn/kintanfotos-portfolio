@@ -1,28 +1,28 @@
-const CategoryItem = ({ imageSrc, title }) => {
+const CategoryItem = ({ link, imageSrc, title }) => {
   return (
-    <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-      <a href="#">
+    <a href={link}>
+      <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
         <img className="rounded-lg" src={imageSrc} alt={title} />
-      </a>
-      <figcaption className="absolute inset-0 flex items-center justify-center text-lg text-white">
-        <h1 className="text-2xl lg:text-6xl">{title}</h1>
-      </figcaption>
-    </figure>
+        <figcaption className="absolute inset-0 flex items-center justify-center text-lg text-white">
+          <h1 className="text-2xl lg:text-6xl">{title}</h1>
+        </figcaption>
+      </figure>
+    </a>
   );
 };
 
 const Work_Category = () => {
   const categories = [
     //create array with 2 param
-    { imageSrc: "/gallery/nature/1.png", title: "NATURE" },
-    { imageSrc: "/gallery/landscape/1.png", title: "LANDSCAPE" },
-    { imageSrc: "/gallery/human/1.png", title: "HUMAN\nINTEREST" },
-    { imageSrc: "/gallery/event/1.png", title: "EVENT" },
-    { imageSrc: "/gallery/animal/1.png", title: "ANIMAL" },
-    { imageSrc: "/gallery/graduate/1.png", title: "GRADUATION" },
-    { imageSrc: "/gallery/still/1.png", title: "STILL LIFE" },
-    { imageSrc: "/gallery/video/1.png", title: "VIDEOGRAPH" },
-    { imageSrc: "/gallery/food/1.png", title: "FOOD/CULINARY" },
+    { link: "/work/nature", imageSrc: "/gallery/nature/1.png", title: "NATURE" },
+    { link: "/work", imageSrc: "/gallery/landscape/1.png", title: "PRODUCT" },
+    { link: "/work/human-interest", imageSrc: "/gallery/human/1.png", title: "HUMAN\nINTEREST" },
+    { link: "/nature", imageSrc: "/gallery/event/1.png", title: "EVENT" },
+    { link: "/nature", imageSrc: "/gallery/animal/1.png", title: "ANIMAL" },
+    { link: "/nature", imageSrc: "/gallery/graduate/1.png", title: "GRADUATION" },
+    { link: "/nature", imageSrc: "/gallery/still/1.png", title: "STILL LIFE" },
+    { link: "/nature", imageSrc: "/gallery/video/1.png", title: "VIDEOGRAPH" },
+    { link: "/nature", imageSrc: "/gallery/food/1.png", title: "FOOD/CULINARY" },
   ];
   return (
     <>
@@ -31,7 +31,7 @@ const Work_Category = () => {
         <div className="grid gap-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
             {categories.map((category, index) => (
-              <CategoryItem key={index} imageSrc={category.imageSrc} title={category.title} />
+              <CategoryItem key={index} link={category.link} imageSrc={category.imageSrc} title={category.title} />
             ))}
           </div>
         </div>
