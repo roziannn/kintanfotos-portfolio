@@ -1,4 +1,19 @@
+import { DrawerItems } from "flowbite-react";
+
+const InstaItem = ({ imageSrc }) => {
+  return (
+    <div className="relative">
+      <img src={imageSrc} alt="instagram" />
+      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white text-6xl bg-lime-500 bg-opacity-40 opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+        <i className="fab fa-instagram"></i>
+      </div>
+    </div>
+  );
+};
+
 const Instagram = () => {
+  const items = [{ imageSrc: "/gallery/instagram/1.png" }, { imageSrc: "/gallery/instagram/2.png" }, { imageSrc: "/gallery/instagram/4.png" }, { imageSrc: "/gallery/instagram/5.png" }];
+
   return (
     <div className="container max-w-screen-xl mx-auto px-4 py-16">
       <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">FOLLOW ME ON INSTAGRAM</h2>
@@ -19,33 +34,9 @@ const Instagram = () => {
       </a>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 insta-imgs">
-        <div className="relative">
-          <img src="/gallery/instagram/1.png" alt="" />
-          <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white text-6xl bg-lime-500 bg-opacity-40 opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
-            <i className="fab fa-instagram"></i>
-          </div>
-        </div>
-
-        <div className="relative">
-          <img src="/gallery/instagram/2.png" alt="" />
-          <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white text-6xl bg-lime-500 bg-opacity-40 opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
-            <i className="fab fa-instagram"></i>
-          </div>
-        </div>
-
-        <div className="relative">
-          <img src="/gallery/instagram/4.png" alt="" />
-          <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white text-6xl bg-lime-500 bg-opacity-40 opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
-            <i className="fab fa-instagram"></i>
-          </div>
-        </div>
-
-        <div className="relative">
-          <img src="/gallery/instagram/5.png" alt="" />
-          <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white text-6xl bg-lime-500 bg-opacity-40 opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
-            <i className="fab fa-instagram"></i>
-          </div>
-        </div>
+        {items.map((item, index) => (
+          <InstaItem key={index} imageSrc={item.imageSrc} />
+        ))}
       </div>
     </div>
   );
