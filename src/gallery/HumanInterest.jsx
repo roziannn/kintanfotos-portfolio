@@ -11,7 +11,7 @@ const Item = ({ imageSrc }) => {
   );
 };
 
-const Nature = () => {
+const HumanInterest = () => {
   const items = [{ imageSrc: "/gallery/human/1.png" }, { imageSrc: "/gallery/human/4.png" }, { imageSrc: "/gallery/human/3.png" }, { imageSrc: "/gallery/human/2.png" }, { imageSrc: "/gallery/human/5.png" }];
   return (
     <>
@@ -50,4 +50,4 @@ const Nature = () => {
   );
 };
 
-export default Nature;
+export default HumanInterest;

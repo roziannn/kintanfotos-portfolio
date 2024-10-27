@@ -9,6 +9,10 @@ import Contact from "./Pages/Contact";
 import Nature from "./gallery/Nature";
 import HumanInterest from "./gallery/HumanInterest";
 import Event from "./gallery/Event";
+import Animal from "./gallery/Animal";
+import Graduation from "./gallery/Graduation";
+import StillLife from "./gallery/StillLife";
+import Food from "./gallery/Food";
 
 function App() {
   return (
@@ -29,6 +33,10 @@ function App() {
         <Route path="/work/nature" element={<Nature />} />
         <Route path="/work/human-interest" element={<HumanInterest />} />
         <Route path="/work/event" element={<Event />} />
+        <Route path="/work/animal" element={<Animal />} />
+        <Route path="/work/graduation" element={<Graduation />} />
+        <Route path="/work/still-life" element={<StillLife />} />
+        <Route path="/work/food" element={<Food />} />
       </Routes>
     </Router>
   );

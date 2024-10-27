@@ -18,11 +18,11 @@ const Work_Category = () => {
     { link: "/work", imageSrc: "/gallery/landscape/1.png", title: "PRODUCT" },
     { link: "/work/human-interest", imageSrc: "/gallery/human/1.png", title: "HUMAN\nINTEREST" },
     { link: "/work/event", imageSrc: "/gallery/event/thumbnail.png", title: "EVENT" },
-    { link: "/nature", imageSrc: "/gallery/animal/1.png", title: "ANIMAL" },
-    { link: "/nature", imageSrc: "/gallery/graduate/1.png", title: "GRADUATION" },
-    { link: "/nature", imageSrc: "/gallery/still/1.png", title: "STILL LIFE" },
+    { link: "/work/animal", imageSrc: "/gallery/animal/thumbnail.png", title: "ANIMAL" },
+    { link: "/work/graduation", imageSrc: "/gallery/graduate/thumbnail.png", title: "GRADUATION" },
+    { link: "/work/still-life", imageSrc: "/gallery/still/thumbnail.png", title: "STILL LIFE" },
     { link: "/nature", imageSrc: "/gallery/video/1.png", title: "VIDEOGRAPH" },
-    { link: "/nature", imageSrc: "/gallery/food/1.png", title: "FOOD/CULINARY" },
+    { link: "/work/food", imageSrc: "/gallery/food/thumbnail.png", title: "FOOD" },
   ];
   return (
     <>
