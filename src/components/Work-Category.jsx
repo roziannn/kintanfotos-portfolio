@@ -17,7 +17,7 @@ const Work_Category = () => {
     { link: "/work/nature", imageSrc: "/gallery/nature/1.png", title: "NATURE" },
     { link: "/work", imageSrc: "/gallery/landscape/1.png", title: "PRODUCT" },
     { link: "/work/human-interest", imageSrc: "/gallery/human/1.png", title: "HUMAN\nINTEREST" },
-    { link: "/nature", imageSrc: "/gallery/event/1.png", title: "EVENT" },
+    { link: "/work/event", imageSrc: "/gallery/event/thumbnail.png", title: "EVENT" },
     { link: "/nature", imageSrc: "/gallery/animal/1.png", title: "ANIMAL" },
     { link: "/nature", imageSrc: "/gallery/graduate/1.png", title: "GRADUATION" },
     { link: "/nature", imageSrc: "/gallery/still/1.png", title: "STILL LIFE" },

@@ -5,26 +5,46 @@ import { Breadcrumb, Button } from "flowbite-react";
 
 const Item = ({ imageSrc }) => {
   return (
-    <div class=" break-inside-avoid mb-8">
+    <div class="mb-8">
       <img class="h-auto max-w-full rounded-lg" src={imageSrc} alt="Gallery image" />
     </div>
   );
 };
 
 const Nature = () => {
-  const items = [{ imageSrc: "/gallery/human/1.png" }, { imageSrc: "/gallery/human/4.png" }, { imageSrc: "/gallery/human/3.png" }, { imageSrc: "/gallery/human/2.png" }, { imageSrc: "/gallery/human/5.png" }];
+  const items = [
+    { imageSrc: "/gallery/event/1.png" },
+    { imageSrc: "/gallery/event/2.png" },
+    { imageSrc: "/gallery/event/3.png" },
+
+    { imageSrc: "/gallery/event/4.png" },
+    { imageSrc: "/gallery/event/5.png" },
+    { imageSrc: "/gallery/event/6.png" },
+
+    { imageSrc: "/gallery/event/13.png" },
+    { imageSrc: "/gallery/event/14.png" },
+    { imageSrc: "/gallery/event/15.png" },
+
+    { imageSrc: "/gallery/event/10.png" },
+    { imageSrc: "/gallery/event/11.png" },
+    { imageSrc: "/gallery/event/12.png" },
+
+    { imageSrc: "/gallery/event/8.png" },
+    { imageSrc: "/gallery/event/7.png" },
+    { imageSrc: "/gallery/event/9.png" },
+  ];
   return (
     <>
       <div className="container pt-5 bg-white max-w-screen-xl mx-auto px-4">
         <Nav />
-        <div className="items-center flex flex-col gap-8 mb-16 text-6xl font-semibold">
+        <div className="items-center flex flex-col gap-6 mb-16 text-6xl font-semibold">
           <Breadcrumb aria-label="breadcrumb">
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
             <Breadcrumb.Item href="/work">Work</Breadcrumb.Item>
-            <Breadcrumb.Item>Human Interest</Breadcrumb.Item>
+            <Breadcrumb.Item>Event</Breadcrumb.Item>
           </Breadcrumb>
-          <h1 className="text-4xl lg:text-5xl mb-4">Human Interest</h1>
-          <div class="columns-1 md:columns-2 xl:columns-3 gap-5 ">
+          <h1 className="text-4xl lg:text-5xl mb-4">Event</h1>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             {items.map((item, index) => (
               <Item key={index} imageSrc={item.imageSrc} />
             ))}

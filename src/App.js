@@ -8,6 +8,8 @@ import Business from "./Pages/Business";
 import Contact from "./Pages/Contact";
 import Nature from "./gallery/Nature";
 import HumanInterest from "./gallery/HumanInterest";
+import Event from "./gallery/Event";
+
 function App() {
   return (
     <Router>
@@ -26,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/work/nature" element={<Nature />} />
         <Route path="/work/human-interest" element={<HumanInterest />} />
+        <Route path="/work/event" element={<Event />} />
       </Routes>
     </Router>
   );
