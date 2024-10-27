@@ -35,7 +35,12 @@ const Business = () => {
               </div>
 
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 mt-12 mb-16 lg:mb-20">
-                <Button outline gradientDuoTone="greenToBlue" className="animate-bounce ">
+                <Button
+                  href="https://drive.google.com/drive/u/0/folders/1B7MdRYXkIogTyetikTH9WuuHvOkcOb5O"
+                  target="_blank"
+                  color="lime"
+                  className="animate-bounce border-2 border-lime-500 text-lime-500 hover:bg-lime-500 hover:text-white transition-all duration-300 rounded-lg"
+                >
                   <div className="flex text-2xl justify-center items-center">
                     EXPLORE PACKAGES HERE
                     <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -44,14 +49,14 @@ const Business = () => {
                   </div>
                 </Button>
               </div>
-              <h2 class="text-4xl font-semibold text-gray-900 text-center mb-6">Service FAQ</h2>
+              {/* <h2 class="text-4xl font-semibold text-gray-900 text-center mb-6">Business FAQ</h2>
               <Accordion collapseAll>
                 <Accordion.Panel>
                   <h1></h1>
                   <Accordion.Title className="text-lg">Paket apa saja yang tersedia?</Accordion.Title>
                   <Accordion.Content>
                     <p className="mb-2 text-gray-500 dark:text-gray-400">
-                      Kami menawarkan berbagai paket fotografi, termasuk paket untuk acara pribadi, pre-wedding, dan sesi foto keluarga. Setiap paket dapat disesuaikan sesuai kebutuhan klien Available untuk private photoshoot
+                      Di Potreed menawarkan berbagai paket fotografi, termasuk paket untuk acara pribadi, pre-wedding, dan sesi foto keluarga. Setiap paket dapat disesuaikan sesuai kebutuhan klien Available untuk private photoshoot
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
                       Check out this guide to see
@@ -62,7 +67,7 @@ const Business = () => {
                   </Accordion.Content>
                 </Accordion.Panel>
                 <Accordion.Panel>
-                  <Accordion.Title className="text-lg">Is there a Figma file available?</Accordion.Title>
+                  <Accordion.Title className="text-lg">How to book photoshoot session?</Accordion.Title>
                   <Accordion.Content>
                     <p className="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
                     <p className="text-gray-500 dark:text-gray-400">
@@ -93,7 +98,7 @@ const Business = () => {
                     </ul>
                   </Accordion.Content>
                 </Accordion.Panel>
-              </Accordion>
+              </Accordion> */}
             </div>
           </div>
         </div>
