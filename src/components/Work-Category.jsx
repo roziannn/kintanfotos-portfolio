@@ -29,7 +29,7 @@ const Work_Category = () => {
       <div className="items-center flex flex-col gap-8 mb-28 text-6xl font-semibold">
         <h1 className="text-4xl lg:text-5xl mb-4">Gallery Categories</h1>
         <div className="grid gap-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
             {categories.map((category, index) => (
               <CategoryItem key={index} imageSrc={category.imageSrc} title={category.title} />
             ))}
