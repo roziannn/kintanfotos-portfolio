@@ -16,7 +16,7 @@ const About = () => {
                   <div className="flex justify-between items-center bg-white/50 text-black p-4 rounded-lg backdrop-blur-sm">
                     <div>
                       <h5 className="text-sm lg:text-lg font-semibold">Bedugul, Bali</h5>
-                      <p className="text-xs lg:text-sm">March 2023</p>
+                      <p className="text-xs lg:text-sm">April 2024</p>
                     </div>
                   </div>
                 </figcaption>

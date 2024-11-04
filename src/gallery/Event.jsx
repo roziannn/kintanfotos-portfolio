@@ -11,7 +11,7 @@ const Item = ({ imageSrc }) => {
   );
 };
 
-const Nature = () => {
+const Event = () => {
   const items = [
     { imageSrc: "/gallery/event/1.png" },
     { imageSrc: "/gallery/event/2.png" },
@@ -40,7 +40,7 @@ const Nature = () => {
         <div className="items-center flex flex-col gap-6 mb-16 text-6xl font-semibold">
           <Breadcrumb aria-label="breadcrumb">
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-            <Breadcrumb.Item href="/work">Work</Breadcrumb.Item>
+            <Breadcrumb.Item href="/work">Work Gallery</Breadcrumb.Item>
             <Breadcrumb.Item>Event</Breadcrumb.Item>
           </Breadcrumb>
           <h1 className="text-4xl lg:text-5xl mb-4">Event</h1>
@@ -70,4 +70,4 @@ const Nature = () => {
   );
 };
 
-export default Nature;
+export default Event;

@@ -13,7 +13,7 @@ const HomeFeeds = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
 export default HomeFeeds;

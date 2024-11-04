@@ -13,11 +13,30 @@ const Item = ({ imageSrc }) => {
 
 const Nature = () => {
   const items = [
-    { imageSrc: "https://pagedone.io/asset/uploads/1688031232.jpg" },
-    { imageSrc: "https://pagedone.io/asset/uploads/1688031162.jpg" },
-    { imageSrc: "https://pagedone.io/asset/uploads/1688031232.jpg" },
-    { imageSrc: "https://pagedone.io/asset/uploads/1688031232.jpg" },
-    { imageSrc: "https://pagedone.io/asset/uploads/1688031232.jpg" },
+    { imageSrc: "/gallery/nature/1.jpg" },
+    { imageSrc: "/gallery/nature/2.jpg" },
+    { imageSrc: "/gallery/nature/3.jpg" },
+    { imageSrc: "/gallery/nature/4.jpg" },
+    { imageSrc: "/gallery/nature/5.jpg" },
+    { imageSrc: "/gallery/nature/6.jpg" },
+    { imageSrc: "/gallery/nature/7.jpg" },
+    { imageSrc: "/gallery/nature/8.jpg" },
+    { imageSrc: "/gallery/nature/9.jpg" },
+    { imageSrc: "/gallery/nature/10.jpg" },
+    { imageSrc: "/gallery/nature/11.jpg" },
+    { imageSrc: "/gallery/nature/12.jpg" },
+    { imageSrc: "/gallery/nature/13.jpg" },
+    { imageSrc: "/gallery/nature/17.png" },
+    { imageSrc: "/gallery/nature/14.jpg" },
+    { imageSrc: "/gallery/nature/16.png" },
+    { imageSrc: "/gallery/nature/20.png" },
+    { imageSrc: "/gallery/nature/18.png" },
+    { imageSrc: "/gallery/nature/15.jpg" },
+    { imageSrc: "/gallery/nature/19.png" },
+    { imageSrc: "/gallery/nature/21.png" },
+    { imageSrc: "/gallery/nature/22.png" },
+    { imageSrc: "/gallery/nature/23.png" },
+    { imageSrc: "/gallery/nature/24.png" },
   ];
   return (
     <>

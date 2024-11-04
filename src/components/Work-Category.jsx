@@ -14,14 +14,14 @@ const CategoryItem = ({ link, imageSrc, title }) => {
 const Work_Category = () => {
   const categories = [
     //create array with 2 param
-    { link: "/work/nature", imageSrc: "/gallery/nature/1.png", title: "NATURE" },
-    { link: "/work", imageSrc: "/gallery/landscape/1.png", title: "PRODUCT" },
+    { link: "/work/nature", imageSrc: "/gallery/nature/thumbnail.png", title: "NATURE" },
+    { link: "/work/product", imageSrc: "/gallery/product/thumbnail.png", title: "PRODUCT" },
     { link: "/work/human-interest", imageSrc: "/gallery/human/1.png", title: "HUMAN\nINTEREST" },
     { link: "/work/event", imageSrc: "/gallery/event/thumbnail.png", title: "EVENT" },
     { link: "/work/animal", imageSrc: "/gallery/animal/thumbnail.png", title: "ANIMAL" },
     { link: "/work/graduation", imageSrc: "/gallery/graduate/thumbnail.png", title: "GRADUATION" },
     { link: "/work/still-life", imageSrc: "/gallery/still/thumbnail.png", title: "STILL LIFE" },
-    { link: "/nature", imageSrc: "/gallery/video/1.png", title: "VIDEOGRAPH" },
+    { link: "/work/videograph", imageSrc: "/gallery/video/1.png", title: "VIDEOGRAPH" },
     { link: "/work/food", imageSrc: "/gallery/food/thumbnail.png", title: "FOOD" },
   ];
   return (
