@@ -5,12 +5,9 @@ import { useState } from "react";
 import { Breadcrumb, Button } from "flowbite-react";
 
 const Item = ({ imageSrc }) => {
-  const [loading, setLoading] = useState(true);
-
   return (
     <div class=" break-inside-avoid mb-8">
-      {loading && <div className="h-64 w-full bg-gray-300 animate-pulse rounded-lg"></div>}
-      <img className={`h-auto max-w-full rounded-lg ${loading ? "hidden" : ""}`} src={imageSrc} alt="Gallery image" loading="lazy" onLoad={() => setLoading(false)} />
+      <img class="h-auto max-w-full rounded-lg" src={imageSrc} alt="Gallery image" loading="lazy" />
     </div>
   );
 };
