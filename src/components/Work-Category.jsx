@@ -2,7 +2,7 @@ const CategoryItem = ({ link, imageSrc, title }) => {
   return (
     <a href={link}>
       <figure className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-        <img className="rounded-lg" src={imageSrc} alt={title} />
+        <img className="rounded-lg" src={imageSrc} alt={title} loading="lazy" />
         <figcaption className="absolute inset-0 flex items-center justify-center text-lg text-white">
           <h1 className="text-2xl lg:text-6xl">{title}</h1>
         </figcaption>
