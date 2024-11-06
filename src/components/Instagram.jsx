@@ -15,7 +15,7 @@ const Instagram = () => {
   const items = [{ imageSrc: "/gallery/instagram/1.png" }, { imageSrc: "/gallery/instagram/2.png" }, { imageSrc: "/gallery/instagram/4.png" }, { imageSrc: "/gallery/instagram/5.png" }];
 
   return (
-    <div className="container max-w-screen-xl mx-auto px-4 py-16">
+    <div className="container max-w-screen-xl mx-auto px-4 py-24">
       <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">FOLLOW ME ON INSTAGRAM</h2>
       <a href="https://instagram.com/kintania_marsha" target="_blank">
         {" "}

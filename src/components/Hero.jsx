@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
       <div className="mx-auto mb-16 lg:mb-0 lg:mx-0">
-        <img src="/profile.jpg" className="rounded-full ring-8 ring-gray-200 max-w-xs lg:max-w-sm" alt="Image Profile" />
+        <img src="/profile.png" className="rounded-full ring-8 ring-lime-400 max-w-xs lg:max-w-sm" alt="Image Profile" />
       </div>
     </header>
   );

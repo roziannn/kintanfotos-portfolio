@@ -8,9 +8,21 @@ const Footer = () => {
             <h2 className="text-4xl font-medium tracking-wider text-lime-400">KINTANFOTOS</h2>
             <p className="opacity-70 mt-4">A Passionate Photographer & Designer with three years experience using lens based on Karawang, Jawa Barat.</p>
             <div className="flex grid-cols-3 gap-5 my-5 text-lg lg:text-xl">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-youtube"></i>
-              <i className="fa-regular fa-envelope"></i>
+              <a href="https://www.instagram.com/kintania_marsha/" target="_blank">
+                {" "}
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/@putukintan" target="_blank">
+                {" "}
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+              <a
+                href="mailto:niluhputukintania@gmail.com
+"
+                target="_blank"
+              >
+                <i className="fa-regular fa-envelope"></i>
+              </a>
             </div>
           </div>
 
@@ -23,7 +35,13 @@ const Footer = () => {
 
             {/* WhatsApp Button */}
             <div className="subs bg-black w-80 mx-auto lg:mx-0 flex justify-between items-center mt-4 p-4">
-              <button id="wa-me" className="flex-1 text-black bg-lime-400 py-4 font-bold transition duration-300 hover:text-white">
+              <button
+                id="wa-me"
+                className="flex-1 text-black bg-lime-400 py-4 font-bold transition duration-300 hover:text-white"
+                onClick={() => {
+                  window.open(`https://wa.me/62895365204644?text=Hello%20POTREED!%20I%27m%20interested%20in%20booking%20a%20photo%20session.%20Can%20you%20share%20more%20details%20on%20graduation%20and%20private%20sessions%3F`, "_blank");
+                }}
+              >
                 <i className="fab fa-whatsapp"></i> WHATSAPP ME
               </button>
             </div>

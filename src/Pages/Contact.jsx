@@ -12,12 +12,16 @@ const Contact = () => {
               <h1 className="text-4xl lg:text-5xl font-semibold mb-6">CONTACT ME</h1>
               <p className="mb-6 text-2xl">For photography inquiries, contact me by email or instagram.</p>
               <h1 className="text-xl mb-2">
-                Mail to: <span className="font-bold">kintania@business.com</span>
+                Mail to: <span className="font-bold">niluhputukintania@gmail.com</span>
               </h1>
               <h1 className="text-xl">Instagram: @kintania_marsha</h1>
               <br />
               <h1 className="text-xl">
-                <i className="fa-brands fa-youtube"> </i> Putu Kintan
+                <i className="fa-brands fa-youtube"> </i>{" "}
+                <a href="https://www.youtube.com/@putukintan" target="_blank">
+                  {" "}
+                  Putu Kintan
+                </a>
               </h1>
               <br />
               <hr />
